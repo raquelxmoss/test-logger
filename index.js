@@ -1,5 +1,5 @@
 const makeHttpRequest = (event) => {
-  axios.get("https://postman-echo.com/get", {event})
+  axios.post("http://dummy.restapiexample.com/api/v1/create", {event})
 }
 
 document.addEventListener('keyup', makeHttpRequest);
